@@ -9,13 +9,13 @@
 
   <title>Cv</title>
 </head>
-<body>
+<body id="top">
   <header>
     <div class="top-bar">
-      <a class="menu-toggle" href="#"><span>Menu</span></a>
+      <!--<a class="menu-toggle" href="#"><span>Menu</span></a>
       <div class="logo">
           <a href="index.html">IM</a>
-     </div>
+     </div>-->
       <nav>
        <ul class="main-navigation">
          <li class="current"><a class="smoothscroll"  href="#intro" title="Home">Home</a></li>
@@ -24,7 +24,7 @@
          <li><a class="smoothscroll"  href="#portfolio" title="Portfolio">Portfolio</a></li>
          <li><a class="smoothscroll"  href="#contact" title="Contact">Contact</a></li>
        </ul>
-     </nav>
+      </nav>
     </div>    
   </header>
   <main>
@@ -35,7 +35,7 @@
             <p class="intro-position">
               <span>Junior Front-end Developer</span>
             </p>
-            <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+            <a class="button stroke" href="#about" title="">More About Me</a>
           </div>
         </div>
       </div>
@@ -51,12 +51,12 @@
         <h5>About</h5>
           <h1>Let me introduce myself.</h1>
           <div class="intro-info">
-            <img src="images/profile-pic.jpg" alt="Profile Picture">
+            <img src="./assets/img/profile-pic.jpg" alt="Profile Picture">
             <p class="lead">I'm seeking a front-end developer position that will hone my technical skills and contribute towards the company's success.  I want to be involved in projects that I can be proud of, join an amazing team and advance my development career.</p>
           </div>
       </div>
-      <div class="row about-content">
-        <div class="tab-full">
+      <div class="about-content">
+        <div class="about-block">
           <h3>Profile</h3>
           <p>I'm enthusiastic, fast in learning, passionate about learning new technologies and enjoy coding. I can deliver the results requested at the best timing and under strict deadlines.</p>
           <ul class="info-list">
@@ -82,13 +82,19 @@
             </li>
           </ul>
         </div>
-        <div class="tab-full">
+        <div class="about-block">
           <h3>Skills</h3>
-          <pre> •	Experience with HTML&CSS tools & plugins (BEM, PerfectPixel, Kotatsu, Flexbox, Reset/Normalize.css, Validation); <br>
-             •	Version control: Git, BitBacket; <br>
-             •	Tools: Atom, SublimeText; <br>
-             •	Responsive and adaptive design; <br>
-         </pre>
+          <p>- Knowledge of HTML/CSS, HTML5, CSS3; <br>
+             - Experience with HTML&CSS tools & plugins (PerfectPixel, Flexbox, Grid);<br>
+              - Knowlege of LESS; <br>
+              - Experience with Bootstrap 3 & 4; <br>
+              - Version control: Git / GitHub/BitBucket; <br>
+              - JS, JQuery (beginner level); <br>
+              - Both structural and semantic organization of HTML and CSS; <br>
+              - Experience with responsive and adaptive design; <br>
+              - Cross-browser compatibility;<br>
+               - Enthusiastic, fast in learning, and passionate about learning new technologies.
+         </p>
          <ul class="skill-bars">
             <li>
               <div class="progress percent90"><span>90%</span></div>
@@ -122,8 +128,8 @@
     </section>
     <section id="contact">
 
-      <div class="row section-intro">
-         <div class="col-twelve">
+      <div class="section-intro">
+         <div class="section-intro">
   
            <h5>Contact</h5>
            <h1>I'd Love To Hear From You.</h1>
@@ -132,8 +138,8 @@
   
          </div>
        </div> <!-- /section-intro -->
-       <div class="row contact-info">
-         <div class="col-four tab-full">
+       <div class="contact-info">
+         <div class="tab-full">
            <div class="icon">
              <i class="icon-pin"></i>
            </div>
@@ -142,7 +148,7 @@
               Kharkov
           </p>
          </div>
-         <div class="col-four tab-full collapse">
+         <div class="tab-full collapse">
            <div class="icon">
              <i class="icon-mail"></i>
            </div>
@@ -151,7 +157,7 @@
              iriyamak@ya.ru
            </p>
          </div>
-         <div class="col-four tab-full">
+         <div class="tab-full">
            <div class="icon">
              <i class="icon-phone"></i>
            </div>
