@@ -11,17 +11,8 @@
   </head>
 
   <body id="top">
-    <main>
-      <section id="intro">
-        <div class="intro-content">
-          <h5>Hello, World.</h5>
-          <h1>I'm Iryna Moiseieva. Junior Front-end developer</h1>
-          <p class="intro-position">
-            <span>Junior Front-end Developer</span>
-          </p>
-          <a class="button stroke" href="#about" title="More">More About Me</a>
-        </div>
-        <nav class= "social">
+    <header>
+              <nav class= "social">
           <ul class="intro-social">
             <li><a href="https://vk.com/iriya_iryna" target="_blank">vk</a></li>
             <li><a href="https://www.linkedin.com/in/iramakarova" target="_blank">linkedin</a></li>
@@ -29,10 +20,21 @@
             <li><a href="http://codepen.io/Iriyamak" target="_blank">codepen</a></li>
           </ul>
         </nav>  
+    </header>
+    <main>
+      <section id="intro">
+        <div class="intro-content">
+          <h2>Hello, World.</h2>
+          <h1>I'm Iryna Moiseieva. Junior Front-end developer</h1>
+          <p class="intro-position">
+            <span>Junior Front-end Developer</span>
+          </p>
+          <a class="button stroke" href="#about" title="More">More About Me</a>
+        </div>
       </section>
       <section id="about">
         <div class="section-intro">
-          <h5>About</h5>
+          <h3>About</h3>
           <h4>Let me introduce myself.</h4>
           <div class="intro-info">
             <img src="./assets/img/profile-pic.jpg" alt="Profile Picture">
@@ -43,7 +45,7 @@
         </div>
         <div class="about-content">
           <div class="about-block">
-            <h2>Profile</h2>
+            <h3>Profile</h3>
             <p>I'm enthusiastic, fast in learning, passionate about learning new technologies and enjoy coding. I can
               deliver the results requested at the best timing and under strict deadlines.</p>
             <ul class="info-list">
@@ -70,7 +72,7 @@
             </ul>
           </div>
           <div class="about-block">
-            <h2>Skills</h2>
+            <h3>Skills</h3>
             <p>- Knowledge of HTML/CSS, HTML5, CSS3; <br>
               - Experience with HTML and CSS tools and plugins (PerfectPixel, Flexbox, Grid);<br>
               - Knowlege of LESS; <br>
@@ -105,39 +107,33 @@
       </section>
       <section id="portfolio">
         <div class="section-intro">
-          <h2>Portfolio</h2>
-          <h1>Check Out Some of My Works.</h1>
+          <h3>Portfolio</h3>
+          <h4>Check Out Some of My Works.</h4>
           <p class="lead"></p>
-          <code>      <section class="advantage">
-        <div class="container flex">
-          <div class="advantage__img">
-            <img src="img/pref-img1.jpg" alt="journalists">
-          </div>
-          <div class="advantage__desription">
-            <div class="advantage__title title">
-              <span>JUST FOR YOU ON THEMEFOREST</span>
-            </div>
-            <div class="advantage__text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos iste perferendis dolorem nobis adipisci, illo?</p>
-            </div>
-            <a href="#" class="advantage__btn btn btn_disabled">Read more</a>
-          </div>
-        </div>
-      </section>
-          </code>
-        </div>
+          <code> 
+            if (window.innerWidth > 820) {
+		      		for (let i = 0; i < subLi.length; i++) {
+			        var subLiA = subLi[i].querySelectorAll('a')[0];
+			  			subLiA.onclick = function(){				
+			      	this.classList.toggle('open');								
+                }
+              }
+            } 
+          </code>         
+
         <div class="portfolio-content">
           <a href="https://iriyamak.github.io/elena/">Project Helena</a>
           <a href="https://iriyamak.github.io/greatkeksby/">Project Kekso-shop</a>
           
         </div>
+       </div>
       </section>
       <section id="contact">
 
         <div class="section-intro">
           <div class="section-intro">
-            <h4>Contact</h4>
-            <h1>I'd Love To Hear From You.</h1>
+            <h3>Contact</h3>
+            <h5>I'd Love To Hear From You.</h5>
             <p class="lead">I am quite focused about making my career in the web development sector. If given an
               opportunity I can assure you of increased profits and business for your organization. I would be grateful
               if you schedule me for the interview. Thank you for your time and consideration.</p>
