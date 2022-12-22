@@ -35,6 +35,8 @@ ul, ol {
 }
 
 
+header{
+	position: absolute}
 
 /**
  * skillbars - (_skillbars.scss)
@@ -481,6 +483,9 @@ header .logo a {
 
 .intro-social {
 	font-size: 3.3rem;
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .intro-social li {
 	display: inline-block;
