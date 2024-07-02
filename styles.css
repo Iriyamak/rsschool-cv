@@ -482,6 +482,7 @@ header .logo a {
 }
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
+	font-size: 0;
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
@@ -892,6 +893,9 @@ footer .footer-social li {
 }
 footer .footer-social li a {
 	color: #FFFFFF;
+}
+footer .footer-social span{
+	font-size: 0;
 }
 footer .copyright span {
 	display: inline-block;
